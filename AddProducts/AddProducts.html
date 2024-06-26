@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Navbar/Navbar.css">
+    <link rel="stylesheet" href="AddProducts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="nav-placeholder">
+</div>
+
+<div class="container">
+    <form>
+      <div class="row">
+        <h4 id="form-title">Product</h4>
+            <div class="col-half"></div>
+            <div class="col-half">
+                <div class="input-group input-group-icon">
+                    <input type="text" placeholder="Name"/>
+                    <div class="input-icon"><i class="fa fa-book"></i></div>
+                  </div>
+                <div class="input-group input-group-icon">
+                    <input type="email" placeholder="Product Number"/>
+                    <div class="input-icon"><i class="fa fa-product-hunt"></i></div>
+                </div>
+                <h4>Color</h4>
+                <div class="input-group">
+                    <select>
+                      <option>Black</option>
+                      <option>White</option>
+                      <option>Brown</option>
+                      <option>Pink</option>
+                      <option>Red</option>
+                    </select>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="text" placeholder="Standar Cost"/>
+                    <div class="input-icon"><i class="fa fa-money"></i></div>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="text" placeholder="List Price"/>
+                    <div class="input-icon"><i class="fa fa-money"></i></div>
+                </div>
+                <h4>Size</h4>
+                <div class="size-container">
+                    <label class="container-checkbox">S
+                        <input type="radio" checked="checked" name="size">
+                        <span class="checkmark"></span>
+                    </label>
+                        <label class="container-checkbox">M
+                        <input type="radio" name="size">
+                    <span class="checkmark"></span>
+                    </label>
+                        <label class="container-checkbox">G
+                        <input type="radio" name="size">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container-checkbox">XL
+                        <input type="radio" name="size">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="number" placeholder="Weight"/>
+                    <div class="input-icon"><i class="fa fa-superpowers"></i></div>
+                </div>
+
+                
+
+
+                <div class="input-group input-group-icon">
+                    <input type="text" placeholder="Product Category ID"/>
+                    <div class="input-icon"><i class="fa fa-product-hunt"></i></div>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="text" placeholder="Product Model ID"/>
+                    <div class="input-icon"><i class="fa fa-product-hunt"></i></div>
+                </div>
+                <h4>Sell Start Date</h4>
+                <div class="input-group input-group-icon">
+                    <input type="date">
+                    <div class="input-icon"><i class="fa fa-calendar-o"></i></div>
+                </div>
+            </div>
+      </div>
+      <div class="row">
+        <div class="center-buttons">
+            <button class="button button-confirm">Confirm</button>
+            <button class="button button-clear">Clear</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+<footer class="footer">
+    <p>Products</p>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="/app.js"></script>
+</body>
+</html>
